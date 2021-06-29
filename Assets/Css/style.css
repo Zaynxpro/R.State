@@ -1146,3 +1146,18 @@ hr {
     height: 200px;
   }
 }
+
+@media (max-width: 500px){
+  .caption-text{
+    padding-top: 5rem;
+    
+  }
+  .lead{
+
+  }
+}
+
+.lead{
+   padding-top: 5rem; 
+  }
+
