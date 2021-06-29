@@ -15,6 +15,7 @@ body {
 	line-height: 1.5;
 	color: #212529;
 	text-align: left;
+  min-height: 100vh;
 }
 
 /* NAVBAR */
@@ -707,6 +708,7 @@ display: inline-block;
   color:#ffffff;
   height: 21vh;
   border-radius: none;
+  top: 100%;
   margin-bottom: -20 !important;
 }
 
@@ -1152,9 +1154,7 @@ hr {
     padding-top: 5rem;
     
   }
-  .lead{
 
-  }
 }
 
 .lead{
