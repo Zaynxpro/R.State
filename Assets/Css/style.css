@@ -699,18 +699,15 @@ display: inline-block;
 
 /* FOOTER */
 
+
 .site-footer
 {
-  background-color:#007bff;
-  padding:45px 0 20px;
-  font-size:15px;
-  line-height:24px;
-  color:#ffffff;
-  height: 21vh;
-  border-radius: none;
-  top: 100%;
-  margin-bottom: -40 !important;
-  padding-bottom: -40rem !important;
+  height: 20vh;
+  width: 100%;
+  padding: 50px 0;
+  background-color: #007bff;
+  color: #ffffff;
+  border-radius: 100px 0px 0px;
 }
 
 
@@ -739,7 +736,7 @@ display: inline-block;
 {
   .site-footer [class^=col-]
   {
-    margin-bottom:30px
+    margin-bottom:0px
   }
 }
 @media (max-width:767px)
@@ -825,6 +822,12 @@ display: inline-block;
   }
   .site-footer{
       height: 25vh;
+  }
+}
+
+@media (max-width:575px){
+  .social-icons{
+    padding-top: 15px;
   }
 }
 
